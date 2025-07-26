@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
 from statsmodels.tsa.stattools import adfuller, coint
 from statsmodels.tsa.vector_ar.vecm import coint_johansen, VECM
@@ -72,6 +73,28 @@ def E_G_cointegration(serie1,serie2):
     print('critical values:')
     print(c)
 
+    
+def plot_k_curve():
+    sns.set_theme(style='whitegrid')
+    plt.figure(figsize=(10, 6))
+
+    sns.regplot(
+        x='realgdp', y='totalghg', data=dataframe_kec,
+        order=2,
+        ci=None,
+        scatter_kws={'s': 20,'color': "#4A7200", 'alpha': 0.9},
+        line_kws={'color': "#5fa834", 'linewidth': 3}
+    )
+
+    turning_point=10.019
+
+    plt.axvline(turning_point, color='red', linestyle='--', label='Turning Point')
+    plt.title('Environmental Kuznets Curve (EKC) in Uruguay (1984-2014)')
+    plt.xlabel('Log of Real GDP per Capita')
+    plt.ylabel('GHG Emissions per Capita')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 
 #Dickey fuller test
 #adf(dataframe['agr_va'].diff().dropna(),'c')
@@ -89,3 +112,4 @@ def E_G_cointegration(serie1,serie2):
 #Johansen_cointegration(dataframe_kec)
 #model_VAR()
 #model_VECM(dataframe_kec)
+#plot_k_curve()
