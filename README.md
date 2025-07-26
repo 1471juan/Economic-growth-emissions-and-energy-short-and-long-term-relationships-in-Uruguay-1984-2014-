@@ -113,6 +113,8 @@ Therefore the real GDP per capita would be aproximately 22,448.96 USD.
 
 The results of the VECM model confirm the existence of a long-term nonlinear relationship between real GDP per capita and GHG emissions emissions per capita in Uruguay between 1984 and 2014, verifying the environmental kuznets curve hypothesis. Emissions increase with economic growth until reaching a turning point, estimated at approximately US$22,448.96 (GDP per capita in constant 2015 prices). Beyond this income level, emissions begin to decline, showing shifts in the energy source usage toward renewable alternatives, and environmental policies implemented in the country. This result suggests that during the period, Uruguay may have begun a transition toward more sustainable development beyond a certain income threshold.
 
+<img width="1920" height="975" alt="ekcfigure" src="https://github.com/user-attachments/assets/f8ed10d1-8d5e-493c-812a-5a8821db2501" />
+
 ## Sources
 - https://es.wikipedia.org/wiki/Energ%C3%ADa_e%C3%B3lica_en_Uruguay
 - https://en.wikipedia.org/wiki/Kuznets_curve#Environmental_Kuznets_curve
