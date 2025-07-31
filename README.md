@@ -123,3 +123,7 @@ While we did not directly test specific policy interventions, the data can provi
 - GDP (constant 2015 US$) - Uruguay https://data.worldbank.org/indicator/NY.GDP.MKTP.KD?locations=UY
 - Total greenhouse gas emissions excluding LULUCF (Mt CO2e) https://data.worldbank.org/indicator/EN.GHG.ALL.MT.CE.AR5
 
+## Requirements
+Install the required packages with the following command:
+`pip install statsmodels seaborn matplotlib pandas numpy`
+
