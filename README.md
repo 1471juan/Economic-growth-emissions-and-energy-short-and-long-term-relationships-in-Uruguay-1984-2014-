@@ -103,7 +103,7 @@ Because the variable is in logarithms, we apply an exponential expression to get
 
 $$\text{Turning point} = e^{10.019} \approx 22{,}448.96$$
 
-Therefore the real GDP per capita would be approximately 22,448.96 USD.
+Therefore the real GDP per capita would be approximately US$22,448.96.
 
 The results of the VECM model is that emissions increase with economic growth until reaching a turning point, estimated at approximately US$22,448.96 (GDP per capita in constant 2015 prices). Beyond this income level, emissions will begin to decline, explained by shifts in the energy source usage toward renewable alternatives, and environmental policies implemented in the country. We can visualize this curve and conclude that during this period Uruguay has not crossed the turning point in the period, which makes sense when we analyze the sign of the coefficient. Analyzing the real gdp per capita time series, Uruguay has crossed the turning point only shortly after 2020.
 
